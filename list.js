@@ -16,7 +16,10 @@ var promise = new Promise(function(resolve, reject) {
 });
 
 promise.then(function(result) {
-    console.log(result);
+    // console.log(result);
+    var f = JSON.parse(JSON.stringify(result));
+    // console.log(f.result);
+    console.log(f.result.length);
 }, function(err) {
     console.log(err);
 });
