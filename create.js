@@ -38,6 +38,7 @@ function f_creat_account() {
             }
             else if (!error && response.statusCode == 200) {
                 cnt ++;
+                console.log("creating no.",cnt, "addr")
                 f_creat_account();
             }
             else {
