@@ -16,7 +16,7 @@ var promise = new Promise(function(resolve, reject) {
 });
 
 promise.then(function(result) {
-  console.log(result);
+    console.log(result);
 }, function(err) {
-  console.log(err);
+    console.log(err);
 });
