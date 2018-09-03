@@ -1,11 +1,9 @@
 # Rhinitis
 
-First
-```
-./geth --rpcapi personal,eth,web3 --rpc
-```
+## for eth
++ [for eth](https://github.com/HAOYUatHZ/Rhinitis/blob/master/for-eth/)
 
-Then
-```
-node rhinitis.js
-```
+README.md
+
+## Android
++ [android](https://github.com/HAOYUatHZ/Rhinitis/blob/master/android/)
